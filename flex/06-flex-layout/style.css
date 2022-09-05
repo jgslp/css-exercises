@@ -30,6 +30,12 @@ ul {
   list-style-type: none;
 }
 
-.header {
+.header, .footer {
   display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
 }
