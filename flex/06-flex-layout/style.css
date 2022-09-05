@@ -38,8 +38,19 @@ ul {
 .left-links, .right-links {
   display: flex;
   gap: 16px;
+  padding: 8px;
 }
 
 .footer {
   background-color: #eeeeee;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
