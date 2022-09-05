@@ -8,6 +8,10 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 .footer {
