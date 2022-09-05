@@ -59,3 +59,7 @@ ul {
   top: 0;
   width: 100%;
 }
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+}
